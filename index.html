@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allyson Vitug</title>
+    
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Maven+Pro:wght@500&family=Questrial&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f513bbdf7f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <br>
+    
+    <!-- sidenav -->
+    <div class="container row col s10 m4 l3 ">
+        <div class="row">
+            <div class="">
+
+            <ul id="slide-out" class="sidenav sidenavbar">
+                <div class="background">
+                    <img class="responsive-img" src="./img/portfolio-logo.png">
+                </div>
+
+                <div class="user-view bottom">
+                    <div>
+                        <a href="#user"><img class="circle responsive-img" src="./img/avatar.jpeg"></a>
+                        <a href="#name"><span class="darktext">Allyson Vitug</span></a>
+                        <a href="https://docs.google.com/document/d/1mNsgcla0Cmxl1ABEm0kjDgDtyCe5XtaQv4pLdJw5Gtk/edit?usp=sharing"><span class="darktext">allyson_vitug@yahoo.com</span></a>
+                    </div>
+
+                    <li><div class="divider"></div></li>
+                    
+                    <li><a class="waves-effect" href="https://github.com/a-vitug"><i class="fa-brands fa-github fa-lg"></i>Github</a></li>
+                    <li><a class="waves-effect" href="https://www.linkedin.com/in/vtg-allyson"><i class="fa-brands fa-linkedin fa-lg"></i>LinkedIn</a></li>
+                    
+                </div>
+            </ul>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="tealtext fa-solid fa-bars fa-2xl"></i> <span class="spacebar"></span> </a> 
+            
+            <a href="#contact" class="right"><i class="tealtext fa-solid fa-address-book fa-2xl"></i> <span class="spacebar"></span> </a>
+            <a href="#project" class="right"><i class="tealtext fa-solid fa-briefcase fa-2xl"></i> <span class="spacebar"></span> </a>
+            <a href="#aboutme" class="right"><i class="tealtext fa-solid fa-house-user fa-2xl"></i> <span class="spacebar"></span> </a> 
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about me page -->
+    <div>
+        <hr class="aboutme">
+    </div>
+
+    <div class="container"  id="aboutme">
+        <div class="row">
+            <div class="parallax-container">
+                <div class="parallax"><img class="responsive-img" src="./img/background.png"/></div>
+            </div>
+
+            <div class="section">
+                <div class="row container">
+                    <h2 class="header darktext">
+                        <span>A</span>
+                        <span>l</span>
+                        <span>l</span>
+                        <span>y</span>
+                        <span>s</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span class="spacebar"></span>
+                        <span>V</span>
+                        <span>i</span>
+                        <span>t</span>
+                        <span>u</span>
+                        <span>g</span>
+                    </h2>
+                    <p class="darktext">➶➴➷➹ An aspiring software developer living in Anaheim, CA..</p>
+                </div>
+            </div>
+
+            <div class="parallax-container">
+                <div class="parallax"><img class="responsive-img" src="./img/background.png"/></div>
+            </div>
+
+        </div>
+    </div>
+        
+    <br>
+    <br>
+
+    <!-- body -->
+    <div class="col s12 m8 l9">  
+        
+        <!-- projects page -->
+        <div>
+            <hr class="project"  id="project">
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <a class="btn tooltipped" data-position="bottom" data-tooltip="Hold the image and slide it to the right or left to see the projects." data-tooltip="">Just a tip</a>
+                <a onclick="M.toast({html: 'Click the emojis to checkout the github repo and the actual site.', classes: 'toasttext',})" class="btn toasttext">Click Me!</a>
+
+                <div class="carousel carousel-slider col s8 m10 l12">
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/ohmybooks.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Oh my, Books!</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://ohmybooks.herokuapp.com/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/mrjeoffrey/ohmybooks"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/oldportfolio.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Old Portfolio</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://a-vitug.github.io/portfolio/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/portfolio"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/codequiz.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Code Quiz</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://a-vitug.github.io/hw4_codequiz/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw4_codequiz"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/passwordgen.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Password Generator</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://a-vitug.github.io/hw3_passwordGen/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw3_passwordGen"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/mealplanner.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Meal Planner</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://famesmyname.github.io/Ingredient-to-Meal-Planner/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/Ingredient-to-Meal-Planner"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/dayscheduler.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Day Planner</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://a-vitug.github.io/hw5_dayplanner/"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw5_dayplanner"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/readmegen.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Readme Generator</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.youtube.com/watch?v=yCxYdTRRy0E&ab_channel=devtools"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw9_readmegen"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/teamprofilegen.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Team Profile Generator</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.youtube.com/watch?v=LAwNHSZKRxo&ab_channel=devtools"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw10_teamprofilegen"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="./img/notetaker.png">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-action">
+                                <h6 class="card-title">Note Taker</h6>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.youtube.com/watch?v=8x_CeR3WmFA&ab_channel=devtools"><i class="fa-solid fa-circle-info fa-xl right"></i></a>
+                                <a href="https://github.com/a-vitug/hw11_notetaker"><i class="fa-brands fa-github fa-xl right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+    </div>
+    
+
+    <footer class="page-footer footer">
+
+        <!-- contact us page -->
+        <div class="">
+            <hr class="contact" id="contact">
+        </div>
+        
+
+        <div class="container-fluid">
+            <div class="row">
+                <form class="col l6">
+                    <div class="row col s6">
+                        <div class="input-field">
+                            <i class="darktext fa-solid fa-user prefix"></i>
+                            <input placeholder="Name" id="user_name" type="text" class="validate">
+                            <label class="active" for="user_name"></label>
+                        </div>
+                        <div class="input-field">
+                            <i class="darktext fa-solid fa-phone prefix"></i>
+                            <input placeholder="Phone Number" id="icon_phone" type="text" class="validate">
+                            <label class="active" for="icon_phone"></label>
+                        </div>
+                        <div class="input-field">
+                            <i class="darktext fa-solid fa-lock prefix"></i>
+                            <input placeholder="Password" id="password" type="password" class="validate">
+                            <label for="password"></label>
+                        </div>
+                        <div class="input-field">
+                            <input placeholder="Email" id="email" type="email" class="validate">
+                            <label for="email"></label>
+                        </div>
+                    </div>
+
+                </form>
+            </div>            
+        </div>
+
+        <div class="footer-copyright">
+          <div class="container center">
+            © 2022 A-Vitug Productions
+          </div>
+        </div>
+    </footer>
+    
+
+</body>
+
+    <!-- materialize js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+        M.AutoInit();
+    </script>
+
+</html>
