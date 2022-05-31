@@ -13,7 +13,7 @@
 
 |  *Website*   |  *Links*   |
 | :---: | :---:  |
-|   Portfolio    |   https://a-vitug.github.io/new-portfolio/    |
+|   Portfolio    |   https://a-vitug.github.io/my-portfolio/    |
 |   Projects    |   https://a-vitug.github.io/mini-project/    |
 |   LinkedIn    |    https://www.linkedin.com/in/vtg-allyson/   |
 
